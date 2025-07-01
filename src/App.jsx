@@ -19,12 +19,12 @@ const App = () => {
         <h1 className='text-white text-8xl z-20 absolute top-[25%] right-50 hover:text-zinc-500 duration-150 cursor-pointer transition'>BLACK PEARL</h1>
       {/* Navbar */}
       <nav className="absolute top-12 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] h-16 bg-zinc-900 bg-opacity-90 rounded-2xl z-10 text-white font-bold flex items-center justify-between">
-        <img className='h-35 w-35' src="captain jack.png" alt="" />
+        <img className='h-35 w-35 hover:scale-150 duration-300' src="captain jack.png" alt="" />
         <div className="flex gap-8 px-9">
-          <h4 className="hover:text-red-600 cursor-pointer transition">Home</h4>
-          <h4 className="hover:text-red-600 cursor-pointer transition">About</h4>
-          <h4 className="hover:text-red-600 cursor-pointer transition">Services</h4>
-          <h4 className="hover:text-red-600 cursor-pointer transition">Contact</h4>
+          <h4 className="hover:text-red-600 cursor-pointer transition hover:scale-120 duration-300">Home</h4>
+          <h4 className="hover:text-red-600 cursor-pointer transition hover:scale-120 duration-300">About</h4>
+          <h4 className="hover:text-red-600 cursor-pointer transition hover:scale-120 duration-300">Services</h4>
+          <h4 className="hover:text-red-600 cursor-pointer transition hover:scale-120 duration-300">Contact</h4>
         </div>
       </nav>
       
@@ -46,8 +46,8 @@ const App = () => {
         <div
         className='p-4 text-white absolute h-70 w-150 bg-zinc-800 opacity-60 rounded-2xl top-[40%] left-[48%] z-30 hover:bg-red-800'>
           <h1 className='hover:text-amber-500 font-bold text-3xl'>Captain Jack Sparrow 🦜</h1>
-          <p className='text-xl py-3 w-110'>Captain of the Black Pearl and legendary pirate of the Seven Seas, Captain Jack Sparrow is the irreverent trickster of the Caribbean.</p>
-          <img className='h-80 w-120 absolute bottom-0 left-83' src="Black_Pearl-removebg.png" alt="" />
+          <p className='text-xl py-3 w-110 '>Captain of the Black Pearl and legendary pirate of the Seven Seas, Captain Jack Sparrow is the irreverent trickster of the Caribbean.</p>
+          <img className='h-80 w-120 absolute bottom-0 left-83 hover:scale-75 duration-300' src="Black_Pearl-removebg.png" alt="" />
           <button className='px-6 py-2 font-bold rounded-xl bg-amber-500 hover:bg-blue-900'>Book Now</button>
         </div>
     </div>
